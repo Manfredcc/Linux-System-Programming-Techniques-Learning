@@ -15,6 +15,17 @@ eg. man [page] cmd/fun
 *echo $?*
 Return code from the last run process
 
+*1> 2>*
+- 1> output the stdandard output
+- 2> output the error output
+
+*Key functions*
+
+| Name            | Desc                                     | Dir  |
+| --------------- | ---------------------------------------- | ---- |
+| atoi            | Transfer string/char to integer          | 01   |
+| getopt          | Parse command-line options               | 02   |
+| fprintf/dprintf | Output strings based on file descriptors | 04   |
 
 
 
